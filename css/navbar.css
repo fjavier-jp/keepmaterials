@@ -1,6 +1,8 @@
 .navbar__list
 {
     list-style: none;
+    position: sticky;
+    top: var(--topbar-menu-height);
 }
 .navbar__item
 {
@@ -17,6 +19,10 @@
 }
 @media screen and (min-width: 1024px)
 {
+    .navbar__list
+    {
+        top: var(--header-height);
+    }
     .navbar__link > span
     {
         display: inline;

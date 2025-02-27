@@ -18,12 +18,15 @@ header.topbar
     grid-area: header;
     border-bottom: 1px solid black;
     font-size: small;
+    z-index: 9999;
+    background-color: white;
 }
 nav.navbar
 {
     grid-area: navbar;
     border: 1px solid black;
     font-size: small;
+    z-index: 9998;
 }
 main.main
 {
