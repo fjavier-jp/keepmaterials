@@ -6,4 +6,10 @@
     --header-height: 150px;
     --topbar-form-max-width: 300px;
     --table-min-width: 576px;
+
+    --col-margin: 1rem;
+
+    --input-height: 1.25rem;
+
+    --col-padding: .5rem;
 }
