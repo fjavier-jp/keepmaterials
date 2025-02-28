@@ -9,7 +9,7 @@
 {
     padding: 1rem;
 }
-@media screen and (min-width: var(--screen-size-xs-upper))
+@media screen and (min-width: 575px)
 {
     .hnavbar__list
     {

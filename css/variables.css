@@ -25,9 +25,8 @@
     --col-11: 91.667%;
     --col-12: 100%; 
 
-    --screen-size-xs-upper: 576px;
-    --screen-size-sm-lower: 577px;
-    --screen-size-sm-upper: 767px;
+    --screen-size-xs-upper: 575px;
+    --screen-size-sm-lower: 576px;
     --screen-size-md-lower: 768px;
     --screen-size-lg-lower: 1024px;
 }

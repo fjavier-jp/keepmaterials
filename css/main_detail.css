@@ -23,7 +23,7 @@
     flex: 1 1 100%;
 }
 
-@media screen and (min-width: var(--screen-size-xs-upper))
+@media screen and (min-width: 575px)
 {
     .form-profile-img
     {
