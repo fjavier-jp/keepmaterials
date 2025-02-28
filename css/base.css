@@ -52,6 +52,7 @@ a
     border: 1px solid black;
     padding: .5rem 1rem;
     cursor: pointer;
+    text-align: center;
 }
 ul
 {
@@ -98,6 +99,27 @@ ul
 {
     display: block;
     padding: 0;
+}
+.input-group-searchbox
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.input-group-searchbox > .input-control
+{
+    width: 100%;
+    height: 2rem;
+}
+.input-group-searchbox > svg
+{
+    width: 20px;
+    position: relative;
+    float: right;
+    margin-left: -25px;
+    margin-right: 5px;
+    fill: gray;
 }
 .input-control[type="checkbox"]
 {
@@ -239,5 +261,10 @@ ul
     .no-padding-right-lg
     {
         padding-right: 0;
+    }
+    .input-group-searchbox > .input-control
+    {
+        float: right;
+        max-width: var(--topbar-form-max-width);
     }
 }
