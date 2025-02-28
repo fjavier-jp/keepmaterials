@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 576px)
+@media screen and (min-width: var(--screen-size-xs-upper))
 {
     .footer .footer__item:first-child
     {

@@ -159,7 +159,7 @@ ul
 .col
 {
     flex-basis: 100%;
-    padding-inline: .5rem;
+    padding-inline: var(--col-padding);
     align-self: flex-start;
 }
 .col-checkbox
@@ -170,7 +170,7 @@ ul
 {
     padding-inline: 0;
 }
-@media screen and (min-width: 577px)
+@media screen and (min-width: var(--screen-size-sm-lower))
 {
     body
     {
@@ -178,71 +178,67 @@ ul
     }
     .col-sm-3
     {
-        flex-basis: 25%;
+        flex-basis: var(--col-3);
     }
     .col-sm-4
     {
-        flex-basis: 33.333%;
+        flex-basis: var(--col-4);
     }
     .col-sm-5
     {
-        flex-basis: 41.667%;
+        flex-basis: var(--col-5);
     }
     .col-sm-6
     {
-        flex-basis: 50%;
+        flex-basis: var(--col-6);
     }
     .col-sm-7
     {
-        flex-basis: 58.333%;
+        flex-basis: var(--col-7);
     }
     .col-sm-9
     {
-        flex-basis: 75%;
+        flex-basis: var(--col-9);
     }
     .col-sm-offset-left
     {
         margin-left: auto;
     }
-    .input-group-buttons
-    {
-        max-width: 200px;
-    }
 }
-@media screen and (min-width: 768px)
+@media screen and (min-width: var(--screen-size-md-lower))
 {
     .col-md-2
     {
-        flex-basis: 16.667%;
+        flex-basis: var(--col-2);
     }
     .col-md-3
     {
-        flex-basis: 25%;
+        flex-basis: var(--col-3);
     }
     .col-md-4
     {
-        flex-basis: 33.333%;
+        flex-basis: var(--col-4);
     }
     .col-md-5
     {
-        flex-basis: 41.667%;
+        flex-basis: var(--col-5);
     }
     .col-md-6
     {
-        flex-basis: 50%;
+        flex-basis: var(--col-6);
     }
     .col-md-7
     {
-        flex-basis: 58.333%;
+        flex-basis: var(--col-7);
     }
     
 }
-@media screen and (min-width: 1024px)
+@media screen and (min-width: var(--screen-size-lg-lower))
 {
     body
     {
         border: none;
-        max-width: 80%;
+        max-width: var(--body-max-width);
         margin-inline: auto;
         grid-template-columns: var(--navbar-max-width) 1fr;
     }
