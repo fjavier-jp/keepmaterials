@@ -160,7 +160,7 @@ ul
 {
     flex-basis: 100%;
     padding-inline: .5rem;
-    align-self: center;
+    align-self: flex-start;
 }
 .col-checkbox
 {
